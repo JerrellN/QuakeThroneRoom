@@ -1,0 +1,16 @@
+OS:	Windows 10 (build 18362), 64-bit edition
+wxWidgets:
+wxWidgets Library (wxMSW port)
+Version 3.1.1 (Unicode: wchar_t, debug level: 1),
+compiled at Feb 18 2018 18:36:35
+
+Runtime version of toolkit used is 10.0.
+
+GL_VENDOR:	Intel
+GL_RENDERER:	Intel(R) HD Graphics 530
+GL_VERSION:	4.6.0 - Build 26.20.100.7263
+TrenchBroom Version:	2019.6
+TrenchBroom Build:	v2019.6 Release
+Reason:	Exception: Colinear face points: (-0 -0 -0) (-0 -0 -0) (-0 -0 -0)
+Stack trace:
+
