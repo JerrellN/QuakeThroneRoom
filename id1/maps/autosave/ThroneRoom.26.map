@@ -1774,7 +1774,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Stairs"
-"_tb_id" "25"
+"_tb_id" "23"
 // brush 0
 {
 ( 448 -224 400 ) ( 448 -223 400 ) ( 448 -224 401 ) 128_brown_2 -16 -64 -0 1 1
