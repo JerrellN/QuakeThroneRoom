@@ -1617,12 +1617,12 @@
 }
 // brush 174
 {
-( 432 -608 208 ) ( 432 -607 208 ) ( 432 -608 209 ) trigger 0 0 0 1 1
-( 432 -608 208 ) ( 432 -608 209 ) ( 433 -608 208 ) trigger 0 0 0 1 1
-( 432 -608 208 ) ( 433 -608 208 ) ( 432 -607 208 ) trigger 0 0 0 1 1
-( 576 -592 368 ) ( 576 -591 368 ) ( 577 -592 368 ) trigger -0 -0 -0 1 1
-( 576 -592 320 ) ( 577 -592 320 ) ( 576 -592 321 ) trigger 0 0 0 1 1
-( 576 -592 320 ) ( 576 -592 321 ) ( 576 -591 320 ) trigger 0 0 0 1 1
+( 432 -608 208 ) ( 432 -607 208 ) ( 432 -608 209 ) 64_green_2 0 0 0 1 1
+( 432 -608 208 ) ( 432 -608 209 ) ( 433 -608 208 ) 64_green_2 0 0 0 1 1
+( 432 -608 208 ) ( 433 -608 208 ) ( 432 -607 208 ) 64_green_2 0 0 0 1 1
+( 576 -592 368 ) ( 576 -591 368 ) ( 577 -592 368 ) 64_green_2 -0 -0 -0 1 1
+( 576 -592 320 ) ( 577 -592 320 ) ( 576 -592 321 ) 64_green_2 0 0 0 1 1
+( 576 -592 320 ) ( 576 -592 321 ) ( 576 -591 320 ) 64_green_2 0 0 0 1 1
 }
 }
 // entity 1
@@ -1630,7 +1630,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Stairs"
-"_tb_id" "15"
+"_tb_id" "32"
 // brush 0
 {
 ( 448 -224 400 ) ( 448 -223 400 ) ( 448 -224 401 ) 128_brown_2 -16 -64 -0 1 1
@@ -1759,7 +1759,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "16"
+"_tb_id" "33"
 // brush 0
 {
 ( 624 -560 176 ) ( 624 -559 176 ) ( 624 -560 177 ) 128_brown_2 -48 -0 -0 1 1
@@ -1793,7 +1793,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "17"
+"_tb_id" "34"
 // brush 0
 {
 ( 336 -560 176 ) ( 336 -559 176 ) ( 336 -560 177 ) 128_brown_2 -48 -0 -0 1 1
@@ -1827,7 +1827,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "18"
+"_tb_id" "35"
 // brush 0
 {
 ( 336 -272 176 ) ( 336 -271 176 ) ( 336 -272 177 ) 128_brown_2 -80 -0 -0 1 1
@@ -1861,7 +1861,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "19"
+"_tb_id" "36"
 // brush 0
 {
 ( 624 -272 176 ) ( 624 -271 176 ) ( 624 -272 177 ) 128_brown_2 -80 -0 -0 1 1
@@ -1895,7 +1895,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "20"
+"_tb_id" "37"
 // brush 0
 {
 ( 816 -608 176 ) ( 816 -607 176 ) ( 816 -608 177 ) 128_brown_2 -0 -0 -0 1 1
@@ -1929,7 +1929,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "21"
+"_tb_id" "38"
 // brush 0
 {
 ( 816 -720 176 ) ( 816 -719 176 ) ( 816 -720 177 ) 128_brown_2 112 -0 -0 1 1
@@ -1963,7 +1963,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "22"
+"_tb_id" "39"
 // brush 0
 {
 ( 816 -832 176 ) ( 816 -831 176 ) ( 816 -832 177 ) 128_brown_2 96 -0 -0 1 1
@@ -1997,7 +1997,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "23"
+"_tb_id" "40"
 // brush 0
 {
 ( 144 -832 176 ) ( 144 -831 176 ) ( 144 -832 177 ) 128_brown_2 96 -0 -0 1 1
@@ -2031,7 +2031,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "24"
+"_tb_id" "41"
 // brush 0
 {
 ( 144 -720 176 ) ( 144 -719 176 ) ( 144 -720 177 ) 128_brown_2 -16 -0 -0 1 1
@@ -2065,7 +2065,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "25"
+"_tb_id" "42"
 // brush 0
 {
 ( 144 -608 176 ) ( 144 -607 176 ) ( 144 -608 177 ) 128_brown_2 -0 -0 -0 1 1
@@ -2099,7 +2099,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "26"
+"_tb_id" "43"
 // brush 0
 {
 ( 816 -496 176 ) ( 816 -495 176 ) ( 816 -496 177 ) 128_brown_2 -112 -0 -0 1 1
@@ -2133,7 +2133,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "27"
+"_tb_id" "44"
 // brush 0
 {
 ( 816 -384 176 ) ( 816 -383 176 ) ( 816 -384 177 ) 128_brown_2 -96 -0 -0 1 1
@@ -2167,7 +2167,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "28"
+"_tb_id" "45"
 // brush 0
 {
 ( 816 -272 176 ) ( 816 -271 176 ) ( 816 -272 177 ) 128_brown_2 -80 -0 -0 1 1
@@ -2201,7 +2201,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "29"
+"_tb_id" "46"
 // brush 0
 {
 ( 144 -496 176 ) ( 144 -495 176 ) ( 144 -496 177 ) 128_brown_2 -112 -0 -0 1 1
@@ -2235,7 +2235,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "30"
+"_tb_id" "47"
 // brush 0
 {
 ( 144 -384 176 ) ( 144 -383 176 ) ( 144 -384 177 ) 128_brown_2 -96 -0 -0 1 1
@@ -2269,7 +2269,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Pillar"
-"_tb_id" "31"
+"_tb_id" "48"
 // brush 0
 {
 ( 144 -272 176 ) ( 144 -271 176 ) ( 144 -272 177 ) 128_brown_2 -80 -0 -0 1 1
