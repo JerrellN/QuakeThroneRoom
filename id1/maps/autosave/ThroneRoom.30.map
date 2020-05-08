@@ -2209,6 +2209,7 @@
 // entity 3
 {
 "classname" "trigger_once"
+"target" "firstFoe"
 // brush 0
 {
 ( 384 -1536 32 ) ( 384 -1535 32 ) ( 384 -1536 33 ) trigger 32 -16 -0 1 1
@@ -2224,40 +2225,102 @@
 "classname" "monster_army"
 "origin" "352 -336 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 5
 {
 "classname" "monster_army"
 "origin" "656 -336 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 6
 {
 "classname" "monster_army"
 "origin" "656 -448 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 7
 {
 "classname" "monster_army"
 "origin" "352 -448 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 8
 {
 "classname" "monster_army"
 "origin" "272 -448 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 9
 {
 "classname" "monster_army"
 "origin" "752 -448 40"
 "angle" "270"
+"targetname" "Ambush"
 }
 // entity 10
 {
 "classname" "monster_ogre"
 "origin" "512 -896 232"
 "angle" "90"
+"target" "daBigBoi"
+}
+// entity 11
+{
+"classname" "trigger_once"
+"targetname" "daBigBoi"
+// brush 0
+{
+( 784 -112 208 ) ( 784 -111 208 ) ( 784 -112 209 ) trigger 0 0 0 1 1
+( 784 -112 208 ) ( 784 -112 209 ) ( 785 -112 208 ) trigger 0 0 0 1 1
+( 784 -112 208 ) ( 785 -112 208 ) ( 784 -111 208 ) trigger 0 0 0 1 1
+( 800 -16 400 ) ( 800 -15 400 ) ( 801 -16 400 ) trigger -0 -0 -0 1 1
+( 800 -16 224 ) ( 801 -16 224 ) ( 800 -16 225 ) trigger 0 0 0 1 1
+( 800 -16 224 ) ( 800 -16 225 ) ( 800 -15 224 ) trigger 0 0 0 1 1
+}
+}
+// entity 12
+{
+"classname" "trigger_once"
+"targetname" "daBigBoi"
+// brush 0
+{
+( 208 -112 208 ) ( 208 -111 208 ) ( 208 -112 209 ) trigger -0 -0 -0 1 1
+( 208 -112 208 ) ( 208 -112 209 ) ( 209 -112 208 ) trigger -0 -0 -0 1 1
+( 208 -112 208 ) ( 209 -112 208 ) ( 208 -111 208 ) trigger -0 -0 -0 1 1
+( 224 -16 400 ) ( 224 -15 400 ) ( 225 -16 400 ) trigger -0 -0 -0 1 1
+( 224 -16 224 ) ( 225 -16 224 ) ( 224 -16 225 ) trigger -0 -0 -0 1 1
+( 224 -16 224 ) ( 224 -16 225 ) ( 224 -15 224 ) trigger -0 -0 -0 1 1
+}
+}
+// entity 13
+{
+"classname" "func_door"
+// brush 0
+{
+( 416 -1008 16 ) ( 416 -1007 16 ) ( 416 -1008 17 ) 64_gold_1 0 0 0 1 1
+( 416 -1008 16 ) ( 416 -1008 17 ) ( 417 -1008 16 ) 64_gold_1 0 0 0 1 1
+( 416 -1008 16 ) ( 417 -1008 16 ) ( 416 -1007 16 ) 64_gold_1 0 0 0 1 1
+( 592 -992 192 ) ( 592 -991 192 ) ( 593 -992 192 ) 64_gold_1 0 0 0 1 1
+( 592 -992 192 ) ( 593 -992 192 ) ( 592 -992 193 ) 64_gold_1 0 0 0 1 1
+( 592 -992 192 ) ( 592 -992 193 ) ( 592 -991 192 ) 64_gold_1 0 0 0 1 1
+}
+}
+// entity 14
+{
+"classname" "trigger_once"
+"target" "Ambush"
+// brush 0
+{
+( 416 -896 16 ) ( 416 -895 16 ) ( 416 -896 17 ) trigger -32 -0 -0 1 1
+( 416 -896 16 ) ( 416 -896 17 ) ( 417 -896 16 ) trigger -0 -0 -0 1 1
+( 416 -896 16 ) ( 417 -896 16 ) ( 416 -895 16 ) trigger -0 32 -0 1 1
+( 592 -880 192 ) ( 592 -879 192 ) ( 593 -880 192 ) trigger -0 32 -0 1 1
+( 592 -880 32 ) ( 593 -880 32 ) ( 592 -880 33 ) trigger -0 -0 -0 1 1
+( 592 -880 32 ) ( 592 -880 33 ) ( 592 -879 32 ) trigger -32 -0 -0 1 1
+}
 }

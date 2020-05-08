@@ -2219,3 +2219,15 @@
 ( 624 -1520 128 ) ( 624 -1520 129 ) ( 624 -1519 128 ) trigger 32 -16 -0 1 1
 }
 }
+// entity 4
+{
+"classname" "monster_army"
+"origin" "352 -336 40"
+"angle" "270"
+}
+// entity 5
+{
+"classname" "monster_army"
+"origin" "656 -336 40"
+"angle" "270"
+}
