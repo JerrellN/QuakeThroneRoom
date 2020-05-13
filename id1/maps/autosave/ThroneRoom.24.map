@@ -2193,6 +2193,15 @@
 ( 576 -0 400 ) ( 576 -0 416 ) ( 432 -0 416 ) 128_gold_2 0 0 0 1 1
 ( 576 -0 400 ) ( 576 -224 400 ) ( 576 -224 416 ) 128_gold_2 0 0 0 1 1
 }
+// brush 235
+{
+( 624 -48 -176 ) ( 624 -47 -176 ) ( 624 -48 -175 ) 64_cyan_3 0 0 0 1 1
+( 624 -32 -176 ) ( 624 -32 -175 ) ( 625 -32 -176 ) 64_cyan_3 -0 -0 -0 1 1
+( 624 -48 -176 ) ( 625 -48 -176 ) ( 624 -47 -176 ) 64_cyan_3 0 0 0 1 1
+( 688 -16 -160 ) ( 688 -15 -160 ) ( 689 -16 -160 ) 64_cyan_3 0 0 0 1 1
+( 688 -16 -160 ) ( 689 -16 -160 ) ( 688 -16 -159 ) 64_cyan_3 0 0 0 1 1
+( 688 -16 -160 ) ( 688 -16 -159 ) ( 688 -15 -160 ) 64_cyan_3 0 0 0 1 1
+}
 }
 // entity 1
 {
@@ -2364,7 +2373,7 @@
 {
 "classname" "func_door_secret"
 "message" ""
-"angle" "90"
+"angle" "180"
 // brush 0
 {
 ( 784 -128 16 ) ( 784 -127 16 ) ( 784 -128 17 ) 64_cyan_1 0 0 0 1 1
@@ -2428,10 +2437,11 @@
 // entity 28
 {
 "classname" "func_button"
-"targetname" "UnderwaterDoor"
 "message" "A Door Has Opened Somewhere"
-"angle" "90"
+"angle" "180"
 "wait" "-1"
+"lip" "2"
+"target" "UnderwaterDoor"
 // brush 0
 {
 ( 528 -112 -128 ) ( 528 -111 -128 ) ( 528 -112 -127 ) 128_blue_1 0 0 0 1 1
@@ -2446,6 +2456,7 @@
 {
 "classname" "func_door_secret"
 "targetname" "UnderwaterDoor"
+"angle" "180"
 // brush 0
 {
 ( 480 -1552 -144 ) ( 480 -1551 -144 ) ( 480 -1552 -143 ) 128_blue_1 0 0 0 1 1
@@ -2492,10 +2503,10 @@
 // entity 33
 {
 "classname" "item_health"
-"origin" "336 -592 32"
+"origin" "336 -608 32"
 }
 // entity 34
 {
 "classname" "item_health"
-"origin" "640 -592 32"
+"origin" "640 -608 32"
 }
