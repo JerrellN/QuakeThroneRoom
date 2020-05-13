@@ -2430,6 +2430,8 @@
 "classname" "func_button"
 "targetname" "UnderwaterDoor"
 "message" "A Door Has Opened Somewhere"
+"angle" "90"
+"wait" "-1"
 // brush 0
 {
 ( 528 -112 -128 ) ( 528 -111 -128 ) ( 528 -112 -127 ) 128_blue_1 0 0 0 1 1

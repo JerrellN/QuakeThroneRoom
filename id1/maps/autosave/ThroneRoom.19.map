@@ -2231,3 +2231,33 @@
 "origin" "656 -336 40"
 "angle" "270"
 }
+// entity 6
+{
+"classname" "monster_army"
+"origin" "656 -448 40"
+"angle" "270"
+}
+// entity 7
+{
+"classname" "monster_army"
+"origin" "352 -448 40"
+"angle" "270"
+}
+// entity 8
+{
+"classname" "monster_army"
+"origin" "272 -448 40"
+"angle" "270"
+}
+// entity 9
+{
+"classname" "monster_army"
+"origin" "752 -448 40"
+"angle" "270"
+}
+// entity 10
+{
+"classname" "monster_ogre"
+"origin" "512 -896 232"
+"angle" "90"
+}

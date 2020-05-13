@@ -1774,7 +1774,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Stairs"
-"_tb_id" "22"
+"_tb_id" "23"
 // brush 0
 {
 ( 448 -224 400 ) ( 448 -223 400 ) ( 448 -224 401 ) 128_brown_2 -16 -64 -0 1 1
@@ -1892,4 +1892,9 @@
 ( 576 -0 416 ) ( 577 -0 416 ) ( 576 -0 417 ) 128_gold_2 0 0 0 1 1
 ( 576 -0 416 ) ( 576 -0 417 ) ( 576 1 416 ) 128_gold_2 0 0 0 1 1
 }
+}
+// entity 2
+{
+"classname" "info_player_start"
+"origin" "496 -1904 40"
 }
