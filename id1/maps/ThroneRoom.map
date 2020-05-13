@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "C:/Program Files (x86)/Quake/ad_dev/wads/prototype_1_2.wad;C:/Users/Owner/Documents/GitHub/QuakeThroneRoom/wads/prototype_1_2.wad;C:/Users/Owner/Documents/GitHub/QuakeThroneRoom/wads/START.WAD"
+"wad" "../wads/START.WAD"
 // brush 0
 {
 ( 16 -16 -16 ) ( 16 -16 16 ) ( 16 -896 16 ) city1_4 -0 -0 -0 1 1
