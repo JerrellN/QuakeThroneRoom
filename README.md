@@ -11,5 +11,5 @@
 <a>https://youtu.be/JFg4XkqEKDk</a>
 <p>Textured Walkthrough</p>
 <br>
-<h2> ZIP File <h2> 
+<h2> ZIP File </h2> 
 <a>https://drive.google.com/file/d/1AwPhnBVQgVckXo7AkGjn2rxsEHHQywgK/view?usp=sharing</a>
